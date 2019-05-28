@@ -1,0 +1,215 @@
+/* -----MAIN TAGS----- */
+
+body {
+  width: 90%;
+  min-width: 25em;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.75em;
+  color: #000000;
+  background-color: #F5F5F5;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: #333333;
+}
+
+h3 {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
+  color: #666666;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+article {
+  background-color: #FFFFFF;
+  border: 15px double #999999;
+  border-radius: 5px;
+}
+
+/* -----CONTENT----- */
+
+.mealContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepsContainer {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+/* -----NAVIGATION----- */
+
+nav {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #333333;
+  background-color: #FFFFFF;
+  border: 15px dotted #999999;
+  border-radius: 5px;
+  margin-top: 0.5em;
+  padding-bottom: 5px;
+}
+
+ul.hiddenContent {
+  min-width: 15em;
+  display: none;
+  background-color: #FFFFFF;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 5px;
+}
+
+nav:hover ul.hiddenContent {
+  display: block;
+}
+
+.hiddenContent li:hover {
+  background-color: #F5F5F5;
+}
+
+/* -----LINKS----- */
+
+a:link {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666666;
+}
+
+a:hover {
+  color: #696969;
+}
+
+/* -----TABLES----- */
+
+table {
+  width: 100%;
+  min-width: 10em;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+tr, td {
+  min-width: 10em;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 10px;
+}
+
+tr {
+  border-bottom: 1px dotted #999999;
+}
+
+tr:last-of-type {
+  border-bottom: none;
+}
+
+tr:hover {
+  background-color: #F5F5F5;
+}
+
+/* -----LISTS----- */
+
+ul {
+  list-style: none;
+}
+
+ul > li:before {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  padding-right: 10px;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+/* -----DIFFERENT CLASSES----- */
+
+.quote {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  text-align: right;
+  font-size: 1.25em;
+  color: #666666;
+  background-color: #FFFFFF;
+  border: 15px double #999999;
+  border-radius: 5px;
+}
+
+.author {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  text-align: right;
+  font-size: 0.75em;
+  padding-right: 50px;
+}
+
+.images {
+  width: 90%;
+  max-width: 40em;
+  min-width: 10em;
+  margin-top: 1em;
+}
+
+.meal {
+  width: 45%;
+  max-width: 40em;
+  min-width: 10em;
+  text-align: center;
+  font-size: 1em;
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  padding: 10px;
+  margin: 0 1em 0em 1em;
+}
+
+.ingredients {
+  width: 45%;
+  max-width: 40em;
+  min-width: 10em;
+  font-size: 1em;
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  margin: 0 1em 0em 1em;
+}
+
+.steps {
+  min-width: 23em;
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  padding-left: 5px;
+  margin: 1em;
+}
+
+/* -----ID TAGS----- */
+
+#top:before {
+  content: '↑';
+  font-size: 2em;
+  font-style: normal;
+  position: fixed;
+  right: 1%;
+  top: 90%;
+}
+
+#bliny {
+  margin-top: 1em;
+}
+
+#syrniki {
+  margin-top: 1em;
+}
