@@ -25,7 +25,6 @@ h3 {
   text-align: left;
   font-size: 1.5em;
   color: #666666;
-  text-decoration: underline;
   padding-left: 10px;
 }
 
@@ -63,10 +62,6 @@ nav {
   padding-bottom: 5px;
 }
 
-h1.a {
-  color: #333333;
-}
-
 ul.hiddenContent {
   min-width: 15em;
   display: none;
@@ -88,8 +83,8 @@ nav:hover ul.hiddenContent {
 /* -----LINKS----- */
 
 a:link {
-  color: #666666;
-  text-decoration: none;
+  color: #333333;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -178,7 +173,7 @@ ol {
   background-color: #FFFFFF;
   border: 1px solid #999999;
   padding: 10px;
-  margin: 0 1em 0em 1em;
+  margin: 0 1.5em 0em 1.5em;
 }
 
 .ingredients {
@@ -188,7 +183,7 @@ ol {
   font-size: 1em;
   background-color: #FFFFFF;
   border: 1px solid #999999;
-  margin: 0 1em 0em 1em;
+  margin: 0 1.5em 0em 1.5em;
 }
 
 .steps {
@@ -196,7 +191,7 @@ ol {
   background-color: #FFFFFF;
   border: 1px solid #999999;
   padding-left: 5px;
-  margin: 1em;
+  margin: 1.5em;
 }
 
 /* -----ID TAGS----- */
@@ -207,7 +202,7 @@ ol {
   font-style: normal;
   position: fixed;
   right: 1%;
-  top: 90%;
+  top: 580px;
 }
 
 #bliny {
